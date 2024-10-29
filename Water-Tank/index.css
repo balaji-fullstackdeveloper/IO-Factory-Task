@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#table {
+  display: flex;
+  margin-top: 10px;
+}
+#table1 {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+#input {
+  font-size: 30px;
+}
+#output {
+  font-size: 30px;
+}
+.empty {
+  width: 150px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 2px;
+}
+.brick {
+  width: 150px;
+  height: 80px;
+  margin: 2px;
+  border: 2px solid black;
+  background: rgb(250, 242, 8);
+}
+.brick:hover {
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.water {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  font-size: 30px;
+  width: 150px;
+  height: 80px;
+  border: 2px solid black;
+  background: rgb(46, 123, 248);
+  color: transparent;
+  transition-duration: 0.5s;
+}
+.water:hover {
+  color: black;
+  border: 2px solid rgb(46, 123, 248);
+
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  -webkit-text-fill-color: rgb(
+    255,
+    255,
+    255
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(3, 13, 110);
+}
+#count {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  -webkit-text-fill-color: rgb(
+    255,
+    255,
+    255
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(3, 13, 110);
+}
+/* CSS input*/
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+input[type="text"] {
+  font-size: 25px;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* CSS button*/
+.button-73 {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: rgb(3, 13, 110) 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 0px 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 30px;
+}
+
+.button-73:hover {
+  background-color: #a5dafa;
+  box-shadow: #1491ff 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: 0rem 2rem;
+  }
+}

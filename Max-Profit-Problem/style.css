@@ -1,0 +1,113 @@
+/* CSS input*/
+/* input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} */
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  -webkit-text-fill-color: rgb(
+    255,
+    255,
+    255
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(3, 13, 110);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+label {
+  font-size: 35px;
+}
+
+input[type="number"] {
+  font-size: 25px;
+  width: 100px;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* CSS button*/
+.button-73 {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: rgb(3, 13, 110) 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 30px;
+}
+
+.button-73:hover {
+  background-color: #a5dafa;
+  box-shadow: #1491ff 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
+.box {
+  border: 2px solid black;
+  min-height: 300px;
+  width: 300px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+h2 {
+  margin-left: 10px;
+  font-size: 40px;
+}
+span {
+  font-weight: 900;
+  font-size: 33px;
+}
+p {
+  font-size: 30px;
+  margin-left: 20px;
+}
+li {
+  font-weight: 700;
+  font-size: 30px;
+}
